@@ -4,7 +4,7 @@ import Button from '../../components/button/Button'
 import Circle from '../../components/circle/Circle'
 import iconLeft from './iconLeft.svg';
 import iconRight from './iconRight.png';
-import arrow from '../../components/circle/arrow.svg';
+
 
 const Body = (props) => {
 
@@ -14,8 +14,8 @@ const Body = (props) => {
                 <div className="block_text">
                     <div className="high_text_container">
                         <div className="high_text">SIRIUS DAO</div>
-                        <div className="high_text">$1,07 <span className="text">
-                        <img src={arrow} className="arrow_percent" alt="arrow" />2.5%</span></div>
+                        <div className="high_text">$1,07<span className="text">
+                        &#129041; 2.5%</span></div>
                     </div>
                     <div className="text">DAO hedge fund SiriusDAO utilizes various strategies: from investments in IDO to classical trading, farming, stacking, etc.</div>
 

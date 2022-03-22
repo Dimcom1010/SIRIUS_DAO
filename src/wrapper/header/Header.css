@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
+    position: relative;
 
 }
 
@@ -14,10 +15,6 @@
     line-height: 22px;
     letter-spacing: 0em;
     cursor: pointer;
-
-
-
-
 }
 
 .menu_item:first-child {
@@ -28,4 +25,10 @@
     .menu_items{
         display: none;
     }
+    .header_container {
+
+        margin-top: 11px;
+
+    }
+    
 }
